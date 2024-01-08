@@ -38,7 +38,7 @@ git clone https://github.com/rjshamim/IFB.git
 ```
 
 ```shell script
-cd FB-BRUTEFORCE
+cd IFB
 ```
 
 ```shell script
@@ -70,7 +70,7 @@ git clone https://github.com/rjshamim/IFB.git
 ```
 
 ```shell script
-cd FB-BRUTEFORCE
+cd IFB
 ```
 
 ```shell script
