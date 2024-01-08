@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import socket, sys, os, re, random, optparse, time
 if sys.version_info.major <= 2:import httplib
@@ -104,7 +104,7 @@ class FaceBoom(object):
         proxystatus = gr+self.useProxy+wi+"["+gr+"ON"+wi+"]" if self.useProxy  else yl+"["+rd+"OFF"+yl+"]"
         print(gr+"""
 ==================================
-[---]  """ + wi + """ Black IEHF sp bd """ + gr + """        [---]
+[---]  """ + wi + """ Black IEHF SP bd """ + gr + """    [---]
 ==================================
 [---]  """ + wi + """ FB-BRUTEFORCE """ + gr + """       [---]
 ==================================
